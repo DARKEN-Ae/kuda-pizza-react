@@ -16,7 +16,7 @@ import filterIcon from "../assets/icons/filter.png";
 // imgs import
 import leftPizza from "../assets/imgs/pizzaLeft.png";
 import centerPizza from "../assets/imgs/pizzaCenter.png";
-import rightPizza from "../assets/imgs/pizzaRight.png";
+import rightPizza from "../assets/imgs/pizzaRightwd.png";
 import openPizza from "../assets/imgs/openPizza.png";
 // style import
 import "./sass/Home.scss";
