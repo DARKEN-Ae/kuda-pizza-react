@@ -88,7 +88,7 @@ const HomePage = () => {
         {/* 4 */}
         <div id="pizza" className="pizza-section">
           <div className="pizza">
-            <h3>{products.category}</h3>
+            {/* <h3></h3> */}
             <div className="filter">
               <img src={filterIcon} alt="filterIcon" />
               <p>Фильтры</p>
