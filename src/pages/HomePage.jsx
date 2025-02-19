@@ -53,7 +53,11 @@ const HomePage = () => {
         <div className="side-bar">
           <div className="slider">
             <div className="imgs">
-              <img className="leftPizza" src={leftPizza} alt="" />
+              <img
+                className="leftPizza"
+                src={leftPizza}
+                alt="Left side pizza"
+              />
               <img className="centerPizza" src={centerPizza} alt="" />
               <img className="rightPizza" src={rightPizza} alt="rightPizza" />
             </div>
@@ -65,7 +69,11 @@ const HomePage = () => {
           </div>
           <div className="slider">
             <div className="imgs">
-              <img className="leftPizza" src={leftPizza} alt="" />
+              <img
+                className="leftPizza"
+                src={leftPizza}
+                alt="Left side pizza"
+              />
               <img className="centerPizza" src={centerPizza} alt="" />
               <img className="rightPizza" src={rightPizza} alt="rightPizza" />
             </div>
@@ -97,7 +105,9 @@ const HomePage = () => {
           <div className="pizza-list">
             {products.map((pizza) => (
               <div key={pizza.id} className="pizza-card">
-                {pizza.filter && <span className="tag">{pizza.filter}</span>}
+                {pizza.filter ? (
+                  <span className="tag">{pizza.filter}</span>
+                ) : null}
                 <img
                   src={pizza.image}
                   alt={pizza.name}
