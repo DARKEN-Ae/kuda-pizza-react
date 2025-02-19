@@ -55,7 +55,7 @@ const HomePage = () => {
             <div className="imgs">
               <img className="leftPizza" src={leftPizza} alt="" />
               <img className="centerPizza" src={centerPizza} alt="" />
-              <img className="rightPizza" src={rightPizza} alt="" />
+              <img className="rightPizza" src={rightPizza} alt="rightPizza" />
             </div>
             <h3>3 средние пиццы от 999 рублей</h3>
           </div>
@@ -67,7 +67,7 @@ const HomePage = () => {
             <div className="imgs">
               <img className="leftPizza" src={leftPizza} alt="" />
               <img className="centerPizza" src={centerPizza} alt="" />
-              <img className="rightPizza" src={rightPizza} alt="" />
+              <img className="rightPizza" src={rightPizza} alt="rightPizza" />
             </div>
             <h3>3 средние пиццы от 999 рублей</h3>
           </div>
